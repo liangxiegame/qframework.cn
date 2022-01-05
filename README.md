@@ -5,7 +5,7 @@
 ## 基本安装
 
 ``` javascript
-# 安装依赖
+# 安装依赖（最好先用 cnpm install 一下）
 yarn
 # 运行项目
 yarn start
