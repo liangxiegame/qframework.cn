@@ -1,7 +1,7 @@
 module.exports = {
   title: "QFramework",
   tagline: "让 Unity 开发更简单，更通用，更流行。",
-  url: "https://furion.icu",
+  url: "http://doc.qframework.cn",
   baseUrl: "/",
   onBrokenLinks: "throw",
   onBrokenMarkdownLinks: "warn",
