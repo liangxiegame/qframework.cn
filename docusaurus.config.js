@@ -1,6 +1,6 @@
 module.exports = {
   title: "QFramework",
-  tagline: "让 Unity 开发更简单，更通用，更流行。",
+  tagline: "优雅的系统设计架构",
   url: "http://doc.qframework.cn",
   baseUrl: "/",
   onBrokenLinks: "throw",
