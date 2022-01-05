@@ -4,8 +4,8 @@
   <ShortName>QFramework</ShortName>
   <Description>Search QFramework</Description>
   <InputEncoding>UTF-8</InputEncoding>
-  <Image width="16" height="16" type="image/x-icon">https://furion.icu/img/favicon.ico</Image>
-  <Url type="text/html" method="get" template="https://furion.icu/search?q={searchTerms}"/>
-  <Url type="application/opensearchdescription+xml" rel="self" template="https://furion.icu/opensearch.xml" />
-  <moz:SearchForm>https://furion.icu/</moz:SearchForm>
+  <Image width="16" height="16" type="image/x-icon">http://doc.qframework.cn/img/favicon.ico</Image>
+  <Url type="text/html" method="get" template="http://doc.qframework.cn/search?q={searchTerms}"/>
+  <Url type="application/opensearchdescription+xml" rel="self" template="http://doc.qframework.cn/opensearch.xml" />
+  <moz:SearchForm>http://doc.qframework.cn/</moz:SearchForm>
 </OpenSearchDescription>
