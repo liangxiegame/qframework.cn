@@ -13,7 +13,7 @@ module.exports = {
   ],
   themeConfig: {
     prism: {
-      additionalLanguages: ["powershell", "csharp", "sql"],
+      additionalLanguages: ["powershell", "csharp", "sql","shell"],
       // theme: require("prism-react-renderer/themes/github"),
       // darkTheme: require("prism-react-renderer/themes/dracula"),
     },
