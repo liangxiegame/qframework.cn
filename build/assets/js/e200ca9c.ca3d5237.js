@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkqframework=self.webpackChunkqframework||[]).push([[3386],{244:function(e){e.exports=JSON.parse('{"allTagsPath":"/blog/tags","slug":"/blog/tags/netcore","name":".netcore","count":6,"permalink":"/blog/tags/netcore"}')}}]);

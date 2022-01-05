@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkqframework=self.webpackChunkqframework||[]).push([[9973],{6115:function(e){e.exports=JSON.parse('{"allTagsPath":"/blog/tags","slug":"/blog/tags/net-6","name":".net6","count":4,"permalink":"/blog/tags/net-6"}')}}]);
