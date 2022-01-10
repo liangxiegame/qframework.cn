@@ -1,187 +1,120 @@
-module.exports = {
-  title: "QFramework",
-  tagline: "优雅的 Unity/.Net 系统设计架构",
-  url: "http://doc.qframework.cn",
-  baseUrl: "/",
-  onBrokenLinks: "throw",
-  onBrokenMarkdownLinks: "warn",
-  favicon: "img/favicon.ico",
-  organizationName: "liangxiegame Co.,Ltd",
-  projectName: "QFramework",
-  scripts: [
-    '/furion/script/baidutongji.js'
-  ],
-  themeConfig: {
-    prism: {
-      additionalLanguages: ["powershell", "csharp", "sql","shell"],
-      // theme: require("prism-react-renderer/themes/github"),
-      // darkTheme: require("prism-react-renderer/themes/dracula"),
-    },
-    algolia: {
-      apiKey: "97723a21d903df7ca5ea618b160f03c6",
-      indexName: "qframework",
-      contextualSearch: true,
-    },
-    navbar: {
-      title: "QFramework",
-      logo: {
-        alt: "QFramework Logo",
-        src: "img/furionlogo.png",
-      },
-      hideOnScroll: true,
-      items: [
-        // {
-        //   type: "docsVersionDropdown",
-        //   position: "left",
-        // },
-        {
-          to: "docs",
-          activeBasePath: "docs",
-          label: "文档",
-          position: "left",
-        },
-        // {
-        //   to: "docs/global/app",
-        //   activeBasePath: "docs/global",
-        //   label: "静态类",
-        //   position: "left",
-        // },
-        // {
-        //   to: "docs/settings/appsettings",
-        //   activeBasePath: "docs/settings",
-        //   label: "配置",
-        //   position: "left",
-        // },
-        // { to: "blog", label: "博客", position: "left" },
-        // {
-        //   to: "docs/upgrade",
-        //   activeBasePath: "docs/upgrade",
-        //   label: "更新日志",
-        //   position: "left",
-        // },
-        // {
-        //   label: "视频",
-        //   position: "right",
-        //   href: "https://space.bilibili.com/695987967",
-        // },
-        // {
-        //   label: "工具",
-        //   position: "right",
-        //   items: [
-        //     {
-        //       label: "代码生成器",
-        //     },
-        //   ],
-        // },
-        // {
-        //   href: "https://gitee.com/dotnetchina/Furion/board",
-        //   label: "看板",
-        //   position: "right",
-        // },
-        // {
-        //   label: "耻辱柱",
-        //   position: "right",
-        //   to: "docs/pillar-of-humiliation",
-        //   activeBasePath: "docs/pillar-of-humiliation",
-        // },
-        {
-          label: "源码",
-          position: "right",
-          items: [
-            {
-              label: "Gitee",
-              href: "https://gitee.com/dotnetchina/Furion",
-            },
-            {
-              label: "GitHub",
-              href: "https://github.com/MonkSoul/Furion",
-            },
-          ],
-        },
-        { label: "社区", position: "right", href: "https://gitee.com/dotnetchina" },
-        {
-          label: "案例✨",
-          position: "right",
-          to: "docs/case",
-          activeBasePath: "docs/case",
-        },
-        {
-          label: "支持",
-          position: "right",
-          to: "docs/donate",
-          activeBasePath: "docs/donate",
-        },
-      ],
-    },
-    footer: {
-      style: "dark",
-      links: [
-        {
-          title: "文档",
-          items: [
-            {
-              label: "入门",
-              to: "docs/get-start",
-            },
-            {
-              label: "指南",
-              to: "docs",
-            },
-          ],
-        },
-        {
-          title: "社区",
-          items: [
-            {
-              label: "讨论",
-              href: "https://gitee.com/dotnetchina/Furion/issues",
-            },
-            {
-              label: "看板",
-              href: "https://gitee.com/dotnetchina/Furion/board",
-            },
-          ],
-        },
-        {
-          title: "更多",
-          items: [
-            {
-              label: "博客",
-              to: "blog",
-            },
-            {
-              label: "仓库",
-              href: "https://gitee.com/dotnetchina/Furion",
-            },
-          ],
-        },
-      ],
-      copyright: `Copyright © ${new Date().getFullYear() - 1
-        }-${new Date().getFullYear()} 百小僧, Baiqian Co.,Ltd.`,
-      logo: {
-        src: "img/chinadotnet.png",
-        href: "https://gitee.com/dotnetchina",
-      },
-    },
-  },
+// @ts-check
+// Note: type annotations allow type checking and IDEs autocompletion
+
+const lightCodeTheme = require('prism-react-renderer/themes/github');
+const darkCodeTheme = require('prism-react-renderer/themes/dracula');
+
+/** @type {import('@docusaurus/types').Config} */
+const config = {
+  title: '凉鞋的笔记',
+  tagline: '独立游戏、Unity、框架',
+  url: 'http://next.liangxiegame.com',
+  baseUrl: '/',
+  onBrokenLinks: 'throw',
+  onBrokenMarkdownLinks: 'warn',
+  favicon: 'img/favicon.ico',
+  organizationName: 'facebook', // Usually your GitHub org/user name.
+  projectName: 'docusaurus', // Usually your repo name.
+
   presets: [
     [
-      "@docusaurus/preset-classic",
-      {
+      'classic',
+      /** @type {import('@docusaurus/preset-classic').Options} */
+      ({
         docs: {
-          sidebarPath: require.resolve("./sidebars.js"),
-          editUrl: "https://gitee.com/dotnetchina/Furion/tree/net6/handbook/",
-          showLastUpdateTime: true,
-          showLastUpdateAuthor: true,
+          sidebarPath: require.resolve('./sidebars.js'),
+          // Please change this to your repo.
+          editUrl: 'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
         },
         blog: {
           showReadingTime: true,
-          editUrl: "https://gitee.com/dotnetchina/Furion/tree/net6/handbook/",
+          // Please change this to your repo.
+          editUrl:
+            'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
         },
         theme: {
-          customCss: require.resolve("./src/css/custom.css"),
+          customCss: require.resolve('./src/css/custom.css'),
         },
-      },
+      }),
     ],
-  ]
+  ],
+
+  themeConfig:
+    /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
+    ({
+      navbar: {
+        title: '凉鞋的笔记',
+        logo: {
+          alt: 'My Site Logo',
+          src: 'img/logo.svg',
+        },
+        items: [
+          {
+            type: 'doc',
+            docId: 'intro',
+            position: 'left',
+            label: 'Tutorial',
+          },
+          {to: '/blog', label: 'Blog', position: 'left'},
+          {href: './games/platformer/', label: '游戏', position: 'left'},
+          {
+            href: 'https://github.com/facebook/docusaurus',
+            label: 'GitHub',
+            position: 'right',
+          },
+
+        ],
+      },
+      footer: {
+        style: 'dark',
+        links: [
+          {
+            title: 'Docs',
+            items: [
+              {
+                label: 'Tutorial',
+                to: '/docs/intro',
+              },
+            ],
+          },
+          {
+            title: 'Community',
+            items: [
+              {
+                label: 'Stack Overflow',
+                href: 'https://stackoverflow.com/questions/tagged/docusaurus',
+              },
+              {
+                label: 'Discord',
+                href: 'https://discordapp.com/invite/docusaurus',
+              },
+              {
+                label: 'Twitter',
+                href: 'https://twitter.com/docusaurus',
+              },
+            ],
+          },
+          {
+            title: 'More',
+            items: [
+              {
+                label: 'Blog',
+                to: '/blog',
+              },
+              {
+                label: 'GitHub',
+                href: 'https://github.com/facebook/docusaurus',
+              },
+            ],
+          },
+        ],
+        copyright: `Copyright © ${new Date().getFullYear()} liangxiegame, Inc. Built with Docusaurus.`,
+      },
+      prism: {
+        theme: lightCodeTheme,
+        darkTheme: darkCodeTheme,
+      },
+    }),
 };
+
+module.exports = config;
