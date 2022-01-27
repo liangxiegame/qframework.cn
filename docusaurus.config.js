@@ -6,15 +6,15 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: '凉鞋的笔记',
-  tagline: '独立游戏、Unity、框架',
-  url: 'http://next.liangxiegame.com',
+  title: 'QFramework',
+  tagline: '易上手、简单、强大的系统设计架构',
+  url: 'http://doc.qframework.cn',
   baseUrl: '/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/favicon.ico',
-  organizationName: 'facebook', // Usually your GitHub org/user name.
-  projectName: 'docusaurus', // Usually your repo name.
+  organizationName: 'liangxiegame', // Usually your GitHub org/user name.
+  projectName: 'qframework.cn', // Usually your repo name.
 
   presets: [
     [
@@ -43,9 +43,9 @@ const config = {
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
       navbar: {
-        title: '凉鞋的笔记',
+        title: 'QFramework',
         logo: {
-          alt: 'My Site Logo',
+          alt: 'QFramework Logo',
           src: 'img/logo.svg',
         },
         items: [
@@ -53,13 +53,17 @@ const config = {
             type: 'doc',
             docId: 'intro',
             position: 'left',
-            label: 'Tutorial',
+            label: '文档',
           },
-          {to: '/blog', label: 'Blog', position: 'left'},
-          {href: './games/platformer/', label: '游戏', position: 'left'},
+          {to: '/blog', label: '博客', position: 'left'},
           {
-            href: 'https://github.com/facebook/docusaurus',
+            href: 'https://github.com/liangxiegame/qframework',
             label: 'GitHub',
+            position: 'right',
+          },
+          {
+            href: 'https://gitee.com/liangxiegame/QFramework',
+            label: 'Gitee',
             position: 'right',
           },
 
