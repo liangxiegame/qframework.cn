@@ -46,7 +46,7 @@ const config = {
         title: 'QFramework',
         logo: {
           alt: 'QFramework Logo',
-          src: 'img/logo.svg',
+          src: 'img/logo.png',
         },
         items: [
           {
