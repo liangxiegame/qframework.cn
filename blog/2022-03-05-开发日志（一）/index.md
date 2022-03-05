@@ -1,3 +1,10 @@
+---
+slug: welcome
+title: 欢迎
+authors: [liangxie]
+tags: [qframework,welcome,qframework pro]
+---
+
 **QFramework Pro 开发日志（一）随便写点啥，3 月开始整活了。**
 
 随便写点吧。

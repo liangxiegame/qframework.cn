@@ -1,6 +1,6 @@
 ---
 slug: welcome
-title: 欢迎
+title: QFramework Pro 开发日志（一）随便写点啥，3 月开始整活了。
 authors: [liangxie]
 tags: [qframework,welcome]
 ---
