@@ -1,8 +1,8 @@
 ---
-slug: welcome
-title: 欢迎
+slug: devnote
+title: QFramework Pro 开发日志（一）随便写点啥，3 月开始整活了。
 authors: [liangxie]
-tags: [qframework,welcome,qframework pro]
+tags: [qframework,welcome,qframeworkpro]
 ---
 
 **QFramework Pro 开发日志（一）随便写点啥，3 月开始整活了。**

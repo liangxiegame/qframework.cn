@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkqframework_cn=self.webpackChunkqframework_cn||[]).push([[681],{7957:function(r){r.exports=JSON.parse('{"allTagsPath":"/blog/tags","slug":"/blog/tags/qframework-pro","name":"qframework pro","count":1,"permalink":"/blog/tags/qframework-pro"}')}}]);

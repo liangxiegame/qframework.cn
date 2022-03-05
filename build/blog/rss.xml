@@ -8,17 +8,17 @@
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <item>
-            <title><![CDATA[欢迎]]></title>
-            <link>http://doc.qframework.cn/blog/welcome</link>
-            <guid>welcome</guid>
+            <title><![CDATA[QFramework Pro 开发日志（一）随便写点啥，3 月开始整活了。]]></title>
+            <link>http://doc.qframework.cn/blog/devnote</link>
+            <guid>devnote</guid>
             <pubDate>Sat, 05 Mar 2022 00:00:00 GMT</pubDate>
             <description><![CDATA[QFramework Pro 开发日志（一）随便写点啥，3 月开始整活了。]]></description>
             <content:encoded><![CDATA[<p><strong>QFramework Pro 开发日志（一）随便写点啥，3 月开始整活了。</strong></p><p>随便写点吧。</p><p>我是 凉鞋 QFramework 的作者。</p><p>3 月之前一直都在制作教程，录制视频，结果录太多再加上一些事情嗓子发炎了，上火了。</p><p>于是就打算让嗓子休息 2 个月。</p><p>不能录课的两个月，只能写文章和写代码。</p><p>而想到自己的 QFramework 有七年了，因为一直做教程，很长时间没加新功能了，所以就打算这两个月时间好好搞搞 QFramework，出一个 QFramework Pro 版本。</p><p>目前的大致规划如下：</p><ul><li>基础内容（开源免费）<ul><li>UI 框架</li><li>资源管理</li><li>系统设计架构</li><li>音频管理</li><li>各种好用工具类</li><li>ActionKit</li><li>编辑器内文档</li><li>一键自动更新</li></ul></li><li>Pro 内容（先定价 5 刀（ Asset Store 起始价格，后续随着功能越来越多，会慢慢涨价到 30 刀左右）<ul><li>通用<ul><li>背包</li><li>任务、成就</li><li>配置表等</li><li>多语言</li><li>代码生成 + GameObject 自动赋值</li><li>使用可视化设计架构</li></ul></li><li>独立游戏向<ul><li>像素画绘制工具</li><li>MoonSharp 脚本</li><li>PlayMaker 动作支持</li><li>可视化编辑器<ul><li>代码生成配置</li><li>ActionKit 可视化编辑<ul><li>FSM</li><li>BehaviorTree</li><li>Flow Machine</li><li>对话</li></ul></li></ul></li></ul></li><li>企业向<ul><li>xLua、ILRuntime、热更方案。</li><li>网络同步</li><li>插件管理服务器（源码，可自己部署）</li></ul></li></ul></li><li>独立游戏向<ul><li>像素画绘制工具</li><li>MoonSharp 脚本</li><li>PlayMaker 动作支持</li><li>可视化编辑器<ul><li>代码生成配置</li><li>ActionKit 可视化编辑<ul><li>FSM</li><li>BehaviorTree</li><li>Flow Machine</li><li>对话</li></ul></li></ul></li></ul></li><li>企业向<ul><li>xLua、ILRuntime、热更方案。</li><li>网络同步</li><li>插件管理服务器（源码，可自己部署）</li></ul></li></ul><p>而从 3 月 1 日，截止到今天，开发进度如下：</p><p><img src="https://file.liangxiegame.com/185a499e-9e46-4d93-9299-2cd35f78186e.png" alt="img"/></p><p>以上图是，QFramework Pro 的其中一个功能，就是用可视化编程去写文档。</p><p>加 QFramework 群：623597263 可以获得实时开发进度。</p><p>当然等第一个小功能完善之后就会在 QFramework Pro 的 AssetStore 主页更新：</p><p>AssetStore 主页地址：</p><ul><li><a href="http://u3d.as/SJ9">http://u3d.as/SJ9</a></li></ul><p>注意：AssetStore 目前的版本只有个购买入口，卵都没有。而目前的价格算是众筹价格，5 刀，后续会随着以上规划的逐个功能更新，会逐步涨价。</p><p>另外还有个事情要通知一下：</p><p>凉鞋的好朋友 麦扣老师</p><p>专做 Unity 和 游戏开发教程，学习体验丝滑，多多支持。</p><p>还差 2k 粉丝就 10w 了，恳请大家棒棒忙，关注一下 麦扣老师的 b 站，帮助他早日达到 10w 粉丝</p><p>b 站地址：<a href="https://space.bilibili.com/370283072">https://space.bilibili.com/370283072</a></p><p>各种地址：</p><ul><li>QFramework github 地址：<a href="https://github.com/liangxiegame/QFramework">https://github.com/liangxiegame/QFramework</a></li><li>麦扣老师 b 站地址：<a href="https://space.bilibili.com/370283072">https://space.bilibili.com/370283072</a></li></ul>]]></content:encoded>
         </item>
         <item>
-            <title><![CDATA[QFramework Pro 开发日志（一）随便写点啥，3 月开始整活了。]]></title>
-            <link>http://doc.qframework.cn/blog/devnote</link>
-            <guid>devnote</guid>
+            <title><![CDATA[欢迎]]></title>
+            <link>http://doc.qframework.cn/blog/welcome</link>
+            <guid>welcome</guid>
             <pubDate>Thu, 27 Jan 2022 00:00:00 GMT</pubDate>
             <description><![CDATA[大家好呀，我是 QFramework 的作者 凉鞋。]]></description>
             <content:encoded><![CDATA[<p>大家好呀，我是 QFramework 的作者 凉鞋。</p><p>这是第一篇 QFramework 的博客。</p><p>感觉这套模板还是挺好用的。</p><p>先用来写写东西看看。</p>]]></content:encoded>
