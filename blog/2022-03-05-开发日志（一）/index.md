@@ -5,8 +5,6 @@ authors: [liangxie]
 tags: [qframework,welcome,qframeworkpro]
 ---
 
-**QFramework Pro 开发日志（一）随便写点啥，3 月开始整活了。**
-
 随便写点吧。
 
 我是 凉鞋 QFramework 的作者。
