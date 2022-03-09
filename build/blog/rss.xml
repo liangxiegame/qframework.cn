@@ -4,9 +4,17 @@
         <title>QFramework Blog</title>
         <link>http://doc.qframework.cn/blog</link>
         <description>QFramework Blog</description>
-        <lastBuildDate>Mon, 07 Mar 2022 00:00:00 GMT</lastBuildDate>
+        <lastBuildDate>Wed, 09 Mar 2022 00:00:00 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
+        <item>
+            <title><![CDATA[QFramework Pro 开发日志（四）0.3 版本正式发布]]></title>
+            <link>http://doc.qframework.cn/blog/devnote4</link>
+            <guid>devnote4</guid>
+            <pubDate>Wed, 09 Mar 2022 00:00:00 GMT</pubDate>
+            <description><![CDATA[刚刚提交了 QFramework Pro v0.3 版本，主要功能如下:]]></description>
+            <content:encoded><![CDATA[<p>刚刚提交了 QFramework Pro v0.3 版本，主要功能如下:</p><ol><li>使用可视化编程的方式 编写、阅读文档（图打错字了）</li></ol><p><img src="https://file.liangxiegame.com/b8698186-51e9-4174-b73f-e50611f6297e.png" alt="01.Editor.CN.png"/></p><ol start="2"><li>创建的文档会自动显示在管理窗口</li></ol><p><img src="https://file.liangxiegame.com/6580518f-0957-452b-8a05-706359d07eec.png" alt="02.Management.CN.png"/></p><ol start="3"><li>支持生成简单的 Markdown 文件</li></ol><p><img src="https://file.liangxiegame.com/c4cf3b59-713e-4a07-85d8-998e17051714.png" alt="03.MarkdownExport.CN.png"/></p><ol start="4"><li>生成的 Markdown 展示（不是插件功能，下图是用其他软件打开的）</li></ol><p><img src="https://file.liangxiegame.com/100bde3a-d7d6-4473-8eb4-513c178efff7.png" alt="04.MarkdownPreview.CN.png"/></p><p>自从 DocKit 核心功能完成后，花了大量时间优化使用体验和一些 bug，有的 bug 实在绕不开了，所以提供了一个重新加载的功能。</p><p>就像电脑死记了，先重启一样😂。</p><p>NodeGraphProcessor 不管从功能、颜值、还是性能上都是最好的方案。</p><p>但是现在有点像用相对稳定 bug 少的 xnode 了。</p><p>等我再纠结纠结吧。</p><p>对了，QFrameworkPro 版本的协议如下：</p><p><img src="https://file.liangxiegame.com/57706870-4958-406f-8e5c-a3e19498e3f9.png" alt="image.png"/></p><p>简单理解，就是你付费买了插件，就可以按照 MIT 的协议使用插件的源码。</p><p>但是由于 QF Pro 引用了一些其他协议的项目，所以请尊重他们的开源协议，最低限度只需包含协议声明即可。</p><p>接下来做啥呢？</p><p>最近感兴趣的 MoonSharp 一个 Lua 方案，然后最开始写的代码生成即 CodeGenKit，要么就是试试 xNode。</p><p>反正随心情吧，都试试，然后产品化，看看哪个比较合适先搞。</p><ul><li>AssetStore 版本地址（文中的版本以提交，正在等待审核）：<a href="http://u3d.as/SJ9">http://u3d.as/SJ9</a></li><li>自己平台地址（文中的版本已发布）：<a href="https://www.gamepixedu.com/course/72">https://www.gamepixedu.com/course/72</a></li></ul><p>就说到这吧，不墨迹了。</p>]]></content:encoded>
+        </item>
         <item>
             <title><![CDATA[QFramework Pro 开发日志（三）DocKit 功能展示-文本节点、图像节点]]></title>
             <link>http://doc.qframework.cn/blog/devnote3</link>
