@@ -21,7 +21,7 @@ tags: [qframework,welcome,qframeworkpro]
 
 * 创建成功
 
-![image.png](https://b3logfile.com/siyuan/1644121094494/assets/image-20220310104932-66vf7fw.png)
+![image.png](https://file.liangxiegame.com/628c2c7b-51ed-47cd-a680-335844891626.png)
 
 总共两步流程，而像创建节点在编写文档是反复使用的功能，所以有优化一下。
 
